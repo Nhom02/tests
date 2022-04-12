@@ -1,0 +1,3 @@
+2020-10-22T00:32:54.468Z INFO @wdio/cli:launcher: Run onPrepare hook
+2020-10-22T00:32:55.540Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2020-10-22T00:32:55.541Z INFO @wdio/local-runner: Start worker 0-0 with arg: ./config/multiremote.config.js,--cucumberOpts.tagExpression='@test2',--suite,request_something

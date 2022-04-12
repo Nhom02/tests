@@ -1,0 +1,50 @@
+2020-10-22T00:32:55.977Z INFO @wdio/local-runner: Run worker command: run
+2020-10-22T00:32:56.167Z INFO webdriverio: Initiate new session using the ./protocol-stub protocol
+2020-10-22T00:32:56.167Z INFO webdriverio: Initiate new session using the ./protocol-stub protocol
+2020-10-22T00:32:56.705Z INFO webdriverio: Initiate new session using the webdriver protocol
+2020-10-22T00:32:56.705Z INFO webdriverio: Initiate new session using the webdriver protocol
+2020-10-22T00:32:56.707Z INFO webdriver: [POST] http://localhost:4444/wd/hub/session
+2020-10-22T00:32:56.707Z INFO webdriver: DATA {
+  capabilities: {
+    alwaysMatch: { browserName: 'chrome', 'goog:chromeOptions': [Object] },
+    firstMatch: [ {} ]
+  },
+  desiredCapabilities: {
+    browserName: 'chrome',
+    'goog:chromeOptions': { prefs: [Object], args: [Array] }
+  }
+}
+2020-10-22T00:32:56.711Z INFO webdriver: [POST] http://hub-cloud.browserstack.com:4444/wd/hub/session
+2020-10-22T00:32:56.711Z INFO webdriver: DATA {
+  capabilities: {
+    alwaysMatch: {
+      device: 'Samsung Galaxy A10',
+      os_version: '9.0',
+      app: 'bs://3dfc94ab99c796918f46272a397219008afe7490',
+      project: 'Hayylo Mobile Automation',
+      build: '1.5.3',
+      name: 'android_automation',
+      autoAcceptAlerts: true,
+      automationName: 'UIAutomator2',
+      'browserstack.acceptInsecureCerts': 'true',
+      'browserstack.geoLocation': 'AU',
+      'browserstack.resignApp': 'false',
+      'browserstack.appium_version': '1.9.1'
+    },
+    firstMatch: [ {} ]
+  },
+  desiredCapabilities: {
+    device: 'Samsung Galaxy A10',
+    os_version: '9.0',
+    app: 'bs://3dfc94ab99c796918f46272a397219008afe7490',
+    project: 'Hayylo Mobile Automation',
+    build: '1.5.3',
+    name: 'android_automation',
+    autoAcceptAlerts: true,
+    automationName: 'UIAutomator2',
+    'browserstack.acceptInsecureCerts': 'true',
+    'browserstack.geoLocation': 'AU',
+    'browserstack.resignApp': 'false',
+    'browserstack.appium_version': '1.9.1'
+  }
+}

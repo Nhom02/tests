@@ -1,0 +1,21 @@
+07:32:56.786 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "browserName": "chrome",
+  "goog:chromeOptions": {
+    "prefs": {
+      "directory_upgrade": true,
+      "prompt_for_download": false,
+      "download.default_directory": "D:\\hayylo\\tests\\functional\\config\\tempDownload"
+    },
+    "args": [
+      "--ignore-certificate-errors"
+    ]
+  }
+}
+07:32:56.787 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}) on port 25813
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1603326778.547][WARNING]: This version of ChromeDriver has not been tested with Chrome version 86.
+07:33:00.572 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+07:33:00.593 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 22ebffb5659188a966bae6cf10201301 (org.openqa.selenium.chrome.ChromeDriverService)
